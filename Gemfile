@@ -10,6 +10,12 @@ gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 # Sendgrid
 gem 'sendgrid-ruby'
+# Carrierwave for image upload
+gem 'carrierwave'
+# Minimagick for image resizing
+gem 'mini_magick'
+# Fog for image handling in production
+gem 'fog'
 # Stripe for handling payments
 gem 'stripe'
 # Use SCSS for stylesheets
